@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right, #bccab0ea, #336485b2, #34ac98a2);
+    display: flex;
+    justify-content: center;
+}
+.musicplayer{
+    background: linear-gradient(135deg, #0a000cd7, #392994ea, #79296bea);
+    width: 300px;
+    height: 450px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 10px rgb(32, 32, 32);
+}
+.poster{
+    background-color: azure;
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+.poster img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.poster img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    filter: drop-shadow(5px 5px 5px #202020);
+}
+.songname{
+    margin-top: 10px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+    filter: drop-shadow(5px 5px 5px #202020);
+}
+.singer{
+    margin-top: 10px;
+    font-family: monospace;
+    filter: drop-shadow(5px 5px 5px #202020);
+}
+
+.slider{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 10px;
+}
+.starttime, .endtime{
+    font-size: 15px;
+    color: rgb(26, 1, 1);
+    filter: drop-shadow(5px 5px 5px #202020);
+}
+.slider input{
+    width: 180px;
+    height: 3px;
+    margin-top: 6px;
+    filter: drop-shadow(5px 5px 5px #202020);
+}
+
+.volume{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 5px;
+}
+.volume img{
+    width: 15px;
+    filter: drop-shadow(5px 5px 5px #202020);
+}
+.volume input{
+    width: 140px;
+    height: 3px;
+    margin-top: 6px;
+    filter: drop-shadow(5px 5px 5px #202020);
+}
+
+.controller{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 20px;
+}
+#previous{
+    width: 22px;
+    height: 15px;
+    margin-top: 18px;
+    filter: drop-shadow(5px 5px 5px #202020);
+}
+#previous:hover{
+    scale: 1.3;
+    filter: drop-shadow(1px 1px 3px #64ffda);
+    cursor: pointer;
+}
+#next{
+    width: 22px;
+    height: 15px;
+    margin-top: 18px;
+    filter: drop-shadow(5px 5px 5px #202020);
+}
+#next:hover{
+    scale: 1.3;
+    filter: drop-shadow(1px 1px 3px #64ffda);
+    cursor: pointer;
+}
+.controller div{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.play-pause img{
+    width: 25px;
+    margin-left: 2px;
+    filter: drop-shadow(5px 5px 5px #202020);
+}
+.controller div:hover{
+    scale: 1.3;
+    filter: drop-shadow(1px 1px 3px #64ffda);
+    cursor: pointer;
+}
